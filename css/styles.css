@@ -28,12 +28,20 @@ body {
   height: auto;
 }
 
-.inner {
+.section {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  height: 100vh !important;
+}
+
+.section .fp-tableCell,
+.section .fp-slides {
+  height: auto !important;
+}
+
+.inner {
   width: 1300px;
-  height: 100vh;
   margin: 0 auto;
 }
 
