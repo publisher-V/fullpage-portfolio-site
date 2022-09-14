@@ -1,0 +1,15 @@
+.modal-background {
+  z-index: 99997;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.modal-background.show {
+  opacity: 1;
+  visibility: visible;
+}

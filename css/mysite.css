@@ -1,0 +1,95 @@
+.mysite-content {
+  display: flex;
+}
+
+.sec5 h1 span {
+  display: inline-block;
+  color: crimson;
+  animation: float 1s ease-in-out infinite;
+}
+
+.mysite-item {
+  position: relative;
+  flex: 1;
+  height: 450px;
+  transition: 0.5s;
+  background-color: #e2e2e2;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.mysite-item:last-child {
+  margin-right: 0;
+}
+
+.mysite-item:hover {
+  background-color: #50586c;
+  flex: 1.2;
+}
+
+.mysite-item:hover .mysite-a-image img:nth-of-type(1) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mysite-item:hover .mysite-a-image img:nth-of-type(2) {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mysite-item:hover .mysite-a-title {
+  height: 80px;
+}
+
+.mysite-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.mysite-a-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 0 0 10px 10px;
+  line-height: 1.8rem;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.mysite-a-title h3 {
+  color: #ffffff;
+}
+
+.mysite-a-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+}
+
+.mysite-a-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.mysite-a-image img:nth-of-type(2) {
+  opacity: 0;
+  visibility: hidden;
+}
