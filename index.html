@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="./js/jquery-3.6.0.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="./fullPage.js-2.9.7/dist/jquery.fullpage.css"
-    />
-    <script src="./fullPage.js-2.9.7/dist/jquery.fullpage.js"></script>
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./aos-master/dist/aos.css" />
+    <link rel="stylesheet" href="./css/swiper.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/537b61becd.js"
-      crossorigin="anonymous"
-    ></script>
     <title>Document</title>
   </head>
 
+  <div class="page-loading">
+    <div class="loader"></div>
+    <span class="text">Loading...</span>
+  </div>
+
+  <div class="cursor-dot-outline"></div>
+  <div class="cursor-dot"></div>
+
+  <div class="progress-bar-box">
+    <div class="progress-bar"></div>
+  </div>
+  <p id="scrollPercentLabel">Scroll Percentage: <span>0</span>%</p>
+
+  <div class="modal-background"></div>
+
   <body>
-    <div class="modal-background"></div>
     <header>
       <div class="section-header">
         <div class="drawer-open">
@@ -49,43 +55,192 @@
       </div>
     </header>
 
-    <main id="fullpage">
-      <div class="section sec1" data-anchor="home">
+    <main class="main">
+      <section class="trigger">
+        <span class="down"
+          >제 포트폴리오 사이트에<br />와주셔서 너무 감사해요.</span
+        >
+        <span class="up">제 소개를 시작할게요!</span>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </section>
+      <div class="intro">
+        <h1
+          class="intro-title"
+          data-aos="fade-right"
+          data-aos-delay="3500"
+          data-aos-duration="1000"
+        >
+          OH YOO TAEK
+        </h1>
+        <h1
+          class="intro-title"
+          data-aos="fade-left"
+          data-aos-delay="3500"
+          data-aos-duration="1000"
+        >
+          PORTFOLIO
+        </h1>
+        <h1
+          class="intro-title"
+          data-aos="fade-up"
+          data-aos-delay="5000"
+          data-aos-duration="1000"
+        >
+          Welcome😊
+        </h1>
+      </div>
+      <div class="section sec1" id="home">
         <div class="inner">
           <div class="home-container">
             <div class="home-content">
               <div class="home-title">
-                <p><span>Hi!</span> WELCOME TO <span>MY</span> WORLD!</p>
-                <p>IM <span>OH YOO TAEK.</span></p>
+                <p
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
+                  <span>Hi!</span> WELCOME TO <span>MY</span> WORLD!
+                </p>
+                <p
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
+                  IM <span>OH YOO TAEK.</span>
+                </p>
               </div>
               <div class="home-index-box">
-                <h1>INDEX</h1>
+                <h1
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="300"
+                  data-aos-duration="1000"
+                >
+                  INDEX
+                </h1>
                 <hr />
-                <div class="home-index-box-content">
+                <div
+                  class="home-index-box-content"
+                  data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-delay="400"
+                  data-aos-duration="1000"
+                >
                   <div class="index-item">
-                    <a href="#aboutme">
-                      <span>About me</span>
-                    </a>
+                    <span>About me</span>
                   </div>
                   <div class="index-item">
-                    <a href="#skills">
-                      <span>Skills</span>
-                    </a>
+                    <span>Skills</span>
                   </div>
                   <div class="index-item">
-                    <a href="#portfolio">
-                      <span>Portfolio</span>
-                    </a>
+                    <span>Portfolio</span>
                   </div>
                   <div class="index-item">
-                    <a href="#mysite">
-                      <span>My site</span>
-                    </a>
+                    <span>My site</span>
                   </div>
                   <div class="index-item">
-                    <a href="#contact">
-                      <span>Contact</span>
-                    </a>
+                    <span>Contact</span>
                   </div>
                 </div>
               </div>
@@ -93,18 +248,37 @@
           </div>
         </div>
       </div>
-      <div class="section sec2" data-anchor="aboutme">
+      <div class="section sec2" id="aboutme">
         <div class="inner">
-          <h1>ABOUT <span>ME</span></h1>
+          <h1
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            ABOUT <span>ME</span>
+          </h1>
           <hr />
           <div class="aboutme-container">
             <div class="aboutme-content">
-              <div class="aboutme-left">
+              <div
+                class="aboutme-left"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
                 <div class="aboutme-image">
                   <img src="./imgs/face.jpg" />
                 </div>
               </div>
-              <div class="aboutme-right">
+              <div
+                class="aboutme-right"
+                data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
                 <div class="aboutme-right-top">
                   <div class="aboutme-text">
                     <h2>
@@ -161,17 +335,36 @@
         </div>
       </div>
 
-      <div class="section sec3" data-anchor="skills">
+      <div class="section sec3" id="skills">
         <div class="inner">
-          <h1>SKILLS</h1>
+          <h1
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            SKILLS
+          </h1>
           <hr />
           <div class="skills-container">
             <div class="skills-content">
-              <div class="skills-can-des">
+              <div
+                class="skills-can-des"
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
                 <h2>이미지에 마우스를 올려보세요!</h2>
                 <i class="fa-solid fa-caret-down"></i>
               </div>
-              <div class="skills-can-box">
+              <div
+                class="skills-can-box"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+              >
                 <div class="skills-can html-box">
                   <div class="skills-can-image">
                     <img src="./imgs/html.png" />
@@ -224,14 +417,33 @@
               <div class="skills-etc-box">
                 <div class="skills-etc-container">
                   <div class="common-skills skills-learn">
-                    <h2>학습 중</h2>
+                    <h2
+                      data-aos="zoom-in"
+                      data-aos-offset="200"
+                      data-aos-delay="400"
+                      data-aos-duration="1000"
+                    >
+                      학습 중
+                    </h2>
                     <div class="common-skills-content skills-learn-content">
-                      <div class="common-skills-image skills-learn-image">
+                      <div
+                        class="common-skills-image skills-learn-image"
+                        data-aos="fade-right"
+                        data-aos-offset="200"
+                        data-aos-delay="450"
+                        data-aos-duration="1000"
+                      >
                         <a href="https://jquery.com" target="_blank"
                           ><img src="./imgs/jquery.png"
                         /></a>
                       </div>
-                      <div class="common-skills-image skills-learn-image">
+                      <div
+                        class="common-skills-image skills-learn-image"
+                        data-aos="fade-right"
+                        data-aos-offset="200"
+                        data-aos-delay="550"
+                        data-aos-duration="1000"
+                      >
                         <a href="https://vuejs.org" target="_blank"
                           ><img src="./imgs/vue.png"
                         /></a>
@@ -240,44 +452,97 @@
                   </div>
 
                   <div class="common-skills skills-expected">
-                    <h2>학습 예정</h2>
-                    <div class="common-skills-content skills-expected-content">
-                      <div class="common-skills-image skills-expected-image">
-                        <a href="https://ko.reactjs.org" target="_blank"
-                          ><img src="./imgs/react.png"
-                        /></a>
-                      </div>
-                      <div class="common-skills-image skills-expected-image">
-                        <a href="https://www.python.org" target="_blank"
-                          ><img src="./imgs/python.png"
-                        /></a>
-                      </div>
-                      <div class="common-skills-image skills-expected-image">
-                        <a
-                          href="https://www.adobe.com/kr/products/illustrator.html"
-                          target="_blank"
-                          ><img src="./imgs/Illustrator.png"
-                        /></a>
-                      </div>
-                      <div class="common-skills-image skills-expected-image">
-                        <a href="https://www.figma.com" target="_blank"
-                          ><img src="./imgs/figma.png"
-                        /></a>
-                      </div>
-                      <div class="common-skills-image skills-expected-image">
-                        <a href="https://getbootstrap.com" target="_blank"
-                          ><img src="./imgs/bootstrap.png"
-                        /></a>
-                      </div>
-                      <div class="common-skills-image skills-expected-image">
-                        <a href="https://ko.wordpress.org" target="_blank"
-                          ><img src="./imgs/wordpress.png"
-                        /></a>
-                      </div>
-                      <div class="common-skills-image skills-expected-image">
-                        <a href="https://threejs.org" target="_blank"
-                          ><img src="./imgs/threejs.png"
-                        /></a>
+                    <h2
+                      data-aos="zoom-in"
+                      data-aos-offset="200"
+                      data-aos-delay="400"
+                      data-aos-duration="1000"
+                    >
+                      학습 예정
+                    </h2>
+                    <div class="expected-content-track">
+                      <div
+                        class="common-skills-content skills-expected-content"
+                      >
+                        <div
+                          class="common-skills-image skills-expected-image"
+                          data-aos="fade-right"
+                          data-aos-offset="200"
+                          data-aos-delay="450"
+                          data-aos-duration="1000"
+                        >
+                          <a href="https://ko.reactjs.org" target="_blank"
+                            ><img src="./imgs/react.png"
+                          /></a>
+                        </div>
+                        <div
+                          class="common-skills-image skills-expected-image"
+                          data-aos="fade-right"
+                          data-aos-offset="200"
+                          data-aos-delay="550"
+                          data-aos-duration="1000"
+                        >
+                          <a href="https://www.python.org" target="_blank"
+                            ><img src="./imgs/python.png"
+                          /></a>
+                        </div>
+                        <div
+                          class="common-skills-image skills-expected-image"
+                          data-aos="fade-right"
+                          data-aos-offset="200"
+                          data-aos-delay="650"
+                          data-aos-duration="1000"
+                        >
+                          <a
+                            href="https://www.adobe.com/kr/products/illustrator.html"
+                            target="_blank"
+                            ><img src="./imgs/Illustrator.png"
+                          /></a>
+                        </div>
+                        <div
+                          class="common-skills-image skills-expected-image"
+                          data-aos="fade-right"
+                          data-aos-offset="200"
+                          data-aos-delay="750"
+                          data-aos-duration="1000"
+                        >
+                          <a href="https://www.figma.com" target="_blank"
+                            ><img src="./imgs/figma.png"
+                          /></a>
+                        </div>
+                        <div
+                          class="common-skills-image skills-expected-image"
+                          data-aos="fade-right"
+                          data-aos-offset="200"
+                          data-aos-delay="850"
+                          data-aos-duration="1000"
+                        >
+                          <a href="https://getbootstrap.com" target="_blank"
+                            ><img src="./imgs/bootstrap.png"
+                          /></a>
+                        </div>
+                        <div
+                          class="common-skills-image skills-expected-image"
+                          data-aos="fade-right"
+                          data-aos-offset="200"
+                          data-aos-delay="950"
+                          data-aos-duration="1000"
+                        >
+                          <a href="https://ko.wordpress.org" target="_blank"
+                            ><img src="./imgs/wordpress.png"
+                          /></a>
+                        </div>
+                        <div
+                          class="common-skills-image skills-expected-image"
+                          data-aos="fade-right"
+                          data-aos-offset="200"
+                          data-aos-delay="1050"
+                          data-aos-duration="1000"
+                        >
+                          <a href="https://threejs.org" target="_blank"
+                            ><img src="./imgs/threejs.png"
+                          /></a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -288,99 +553,125 @@
         </div>
       </div>
 
-      <div class="section sec4" data-anchor="portfolio">
+      <div class="section sec4" id="portfolio">
         <div class="inner">
-          <h1>PORTFOLIO</h1>
+          <h1
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            PORTFOLIO
+          </h1>
           <hr />
-          <div class="slide">
-            <div class="portfolio-cotainer">
-              <div class="portfolio-content">
-                <div class="portfolio-title-box">
-                  <div class="portfolio-title-left">
-                    <h2>Lorem</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
-                    <span>프로젝트 기여도 : 100%</span>
+          <div
+            class="portfolio-slide"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+          >
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="portfolio-title-box">
+                    <div class="portfolio-title-left">
+                      <h2>Lorem</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur</p>
+                      <span>프로젝트 기여도 : 100%</span>
+                    </div>
+                    <div class="portfolio-title-right">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Rerum illo voluptatem aspernatur doloremque
+                        corrupti quibusdam molestias accusamus enim, accusantium
+                        nihil.
+                      </p>
+                      <a href="">Go to site</a>
+                    </div>
                   </div>
-                  <div class="portfolio-title-right">
-                    <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Rerum illo voluptatem aspernatur doloremque corrupti
-                      quibusdam molestias accusamus enim, accusantium nihil.
-                    </p>
-                    <a href="">Go to site</a>
+                  <div class="portfolio-image-box">
+                    <div class="portfolio-image">
+                      <img src="./imgs/portfolio/riot/riot-main.PNG" />
+                    </div>
                   </div>
                 </div>
-                <div class="portfolio-image-box">
-                  <div class="portfolio-image">
-                    <img src="./imgs/portfolio/riot/riot-main.PNG" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="slide">
-          <div class="portfolio-cotainer">
-            <div class="portfolio-content">
-              <div class="portfolio-title-box">
-                <div class="portfolio-title-left">
-                  <h2>Lorem</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                  <span>프로젝트 기여도 : 100%</span>
+                <div class="swiper-slide">
+                  <div class="portfolio-title-box">
+                    <div class="portfolio-title-left">
+                      <h2>Lorem</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur</p>
+                      <span>프로젝트 기여도 : 100%</span>
+                    </div>
+                    <div class="portfolio-title-right">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Rerum illo voluptatem aspernatur doloremque
+                        corrupti quibusdam molestias accusamus enim, accusantium
+                        nihil.
+                      </p>
+                      <a href="">Go to site</a>
+                    </div>
+                  </div>
+                  <div class="portfolio-image-box">
+                    <div class="portfolio-image">
+                      <img src="./imgs/portfolio/riot/riot-main.PNG" />
+                    </div>
+                  </div>
                 </div>
-                <div class="portfolio-title-right">
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Rerum illo voluptatem aspernatur doloremque corrupti
-                    quibusdam molestias accusamus enim, accusantium nihil.
-                  </p>
-                  <a href="">Go to site</a>
-                </div>
-              </div>
-              <div class="portfolio-image-box">
-                <div class="portfolio-image">
-                  <img src="./imgs/portfolio/riot/riot-main.PNG" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="slide">
-          <div class="portfolio-cotainer">
-            <div class="portfolio-content">
-              <div class="portfolio-title-box">
-                <div class="portfolio-title-left">
-                  <h2>Lorem</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
-                  <span>프로젝트 기여도 : 100%</span>
-                </div>
-                <div class="portfolio-title-right">
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Rerum illo voluptatem aspernatur doloremque corrupti
-                    quibusdam molestias accusamus enim, accusantium nihil.
-                  </p>
-                  <a href="">Go to site</a>
-                </div>
-              </div>
-              <div class="portfolio-image-box">
-                <div class="portfolio-image">
-                  <img src="./imgs/portfolio/riot/riot-main.PNG" />
+                <div class="swiper-slide">
+                  <div class="portfolio-title-box">
+                    <div class="portfolio-title-left">
+                      <h2>Lorem</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur</p>
+                      <span>프로젝트 기여도 : 100%</span>
+                    </div>
+                    <div class="portfolio-title-right">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Rerum illo voluptatem aspernatur doloremque
+                        corrupti quibusdam molestias accusamus enim, accusantium
+                        nihil.
+                      </p>
+                      <a href="">Go to site</a>
+                    </div>
+                  </div>
+                  <div class="portfolio-image-box">
+                    <div class="portfolio-image">
+                      <img src="./imgs/portfolio/riot/riot-main.PNG" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
 
-      <div class="section sec5" data-anchor="mysite">
+      <div class="section sec5" id="mysite">
         <div class="inner">
-          <h1><span>MY</span> SITE</h1>
+          <h1
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <span>MY</span> SITE
+          </h1>
           <hr />
           <div class="mysite-container">
-            <div class="mysite-content">
+            <div
+              class="mysite-content"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
               <div class="mysite-item">
                 <a href="https://github.com/publisher-V" target="_blank">
                   <div class="mysite-a-image">
@@ -425,7 +716,7 @@
                   </div>
                   <div class="mysite-a-title">
                     <h3>Portfolio Site</h3>
-                    <h3>(No fullpage Ver.)</h3>
+                    <h3>(old Ver.)</h3>
                   </div>
                 </a>
               </div>
@@ -434,77 +725,90 @@
         </div>
       </div>
 
-      <div class="section sec6" data-anchor="contact">
+      <div class="section sec6" id="contact">
         <div class="inner">
-          <h1>CONTACT</h1>
+          <h1
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            CONTACT
+          </h1>
           <hr />
-          <div class="contact-container">
-            <div class="contact-content">
-              <div class="contact-content-left">
-                <div class="contact-content-text">
-                  <p>제 사이트를 방문해 주셔서 감사합니다.</p>
-                  <p>궁금한 점이 있으시면 언제든지 연락 주세요.</p>
-                  <p>최대한 빠르게 연락드리겠습니다.</p>
-                </div>
-                <div class="contact-content-link">
-                  <div class="contact-content-email-contianer">
-                    <h3>Email</h3>
-                    <a href="mailto:dbxor1568@gmail.com">
-                      <span>dbxor1568@gmail.com</span>
-                    </a>
+          <form
+            class="gform"
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbzDLmjCcjpflDkdmaIIk28LBEChUtZBICFdCaM/exec"
+          >
+            <div class="contact-container">
+              <div class="contact-content">
+                <div
+                  class="contact-content-left"
+                  data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
+                  <div class="contact-content-text">
+                    <p>제 사이트를 방문해 주셔서 감사합니다.</p>
+                    <p>궁금한 점이 있으시면 언제든지 연락 주세요.</p>
+                    <p>최대한 빠르게 연락드리겠습니다.</p>
                   </div>
-                  <div class="content-link-sns-container">
-                    <h3>Social</h3>
-                    <div class="content-link-sns-content">
-                      <div class="content-link-sns">
-                        <a
-                          href="https://www.facebook.com/yout.oh.3"
-                          target="_blank"
-                        >
-                          <img src="./imgs/facebook-black.png" />
-                          <img src="./imgs/facebook-white.png" />
-                        </a>
-                      </div>
-                      <div class="content-link-sns">
-                        <a
-                          href="https://www.instagram.com/yout.5"
-                          target="_blank"
-                        >
-                          <img src="./imgs/insta-black.png" />
-                          <img src="./imgs/insta-white.png" />
-                        </a>
-                      </div>
-                      <div class="content-link-sns">
-                        <a href="https://pf.kakao.com/_yceLb" target="_blank">
-                          <img src="./imgs/kakao-black.png" />
-                          <img src="./imgs/kakao-white.png" />
-                        </a>
-                      </div>
-                      <div class="content-link-sns">
-                        <a href="https://v-dev.channel.io" target="_blank">
-                          <img src="./imgs/channel-black.png" />
-                          <img src="./imgs/channel-white.png" />
-                        </a>
+                  <div class="contact-content-link">
+                    <div class="contact-content-email-contianer">
+                      <h3>Email</h3>
+                      <a href="mailto:dbxor1568@gmail.com">
+                        <span>dbxor1568@gmail.com</span>
+                      </a>
+                    </div>
+                    <div class="content-link-sns-container">
+                      <h3>Social</h3>
+                      <div class="content-link-sns-content">
+                        <div class="content-link-sns">
+                          <a
+                            href="https://www.facebook.com/yout.oh.3"
+                            target="_blank"
+                          >
+                            <img src="./imgs/facebook-black.png" />
+                            <img src="./imgs/facebook-white.png" />
+                          </a>
+                        </div>
+                        <div class="content-link-sns">
+                          <a
+                            href="https://www.instagram.com/yout.5"
+                            target="_blank"
+                          >
+                            <img src="./imgs/insta-black.png" />
+                            <img src="./imgs/insta-white.png" />
+                          </a>
+                        </div>
+                        <div class="content-link-sns">
+                          <a href="https://pf.kakao.com/_yceLb" target="_blank">
+                            <img src="./imgs/kakao-black.png" />
+                            <img src="./imgs/kakao-white.png" />
+                          </a>
+                        </div>
+                        <div class="content-link-sns">
+                          <a href="https://v-dev.channel.io" target="_blank">
+                            <img src="./imgs/channel-black.png" />
+                            <img src="./imgs/channel-white.png" />
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <hr />
-              <div class="contact-content-right">
-                <div class="contact-content-message">
-                  <form
-                    class="gform"
-                    method="POST"
-                    action="https://script.google.com/macros/s/AKfycbzDLmjCcjpflDkdmaIIk28LBEChUtZBICFdCaM/exec"
-                  >
+                <hr />
+                <div
+                  class="contact-content-right"
+                  data-aos="fade-left"
+                  data-aos-offset="200"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
+                  <div class="contact-content-message">
                     <input id="honeypot" type="text" name="honeypot" value="" />
-                    <div class="thankyou_message">
-                      <h2>
-                        전송이 완료되었습니다.<br />최대한 빠르게 답변해
-                        드리겠습니다.
-                      </h2>
-                    </div>
                     <div class="name-email-container">
                       <div class="name-box">
                         <label id="name" for="input-name"
@@ -545,25 +849,50 @@
                       ></textarea>
                     </div>
                     <button id="message-send">SEND MESSAGE</button>
-                  </form>
+                  </div>
+                </div>
+              </div>
+              <div class="thankyou-box">
+                <div class="thankyou_message">
+                  <h2>
+                    전송이 완료되었습니다.<br />최대한 빠르게 답변해
+                    드리겠습니다.
+                  </h2>
                 </div>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
-
-      <div class="hidden-section"></div>
     </main>
 
-    <script src="./js/fullPageActive.js"></script>
+    <footer>
+      <p>This site is designed for portfolio use.</p>
+      <p>made by oh yoo taek.</p>
+    </footer>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/headerAction.js"></script>
-    <script src="./js/bodyScroll.js"></script>
     <script src="./js/mouseHover.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/slide.js"></script>
+    <script src="./gsap-public/minified/gsap.min.js"></script>
+    <script src="./gsap-public/minified/ScrollTrigger.min.js"></script>
+    <script src="./js/cursor.js"></script>
+    <script src="./js/scrollEvent.js"></script>
+    <script src="./js/percentage.js"></script>
+    <script src="./js/percentageBar.js"></script>
+    <script src="./aos-master/dist/aos.js"></script>
+    <script src="./js/aosActive.js"></script>
+    <script src="./js/loadingTime.js"></script>
     <script
       data-cfasync="false"
       type="text/javascript"
       src="./js/form-submission-handler.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/537b61becd.js"
+      crossorigin="anonymous"
     ></script>
   </body>
 </html>

@@ -1,0 +1,48 @@
+.trigger {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+.trigger:nth-of-type(2) {
+  background: #eee;
+}
+
+.trigger span {
+  position: absolute;
+  display: block;
+  text-align: center;
+  font-size: 38px;
+  z-index: 2;
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+  top: calc(50vh - 56px);
+}
+.trigger span.up {
+  right: 0;
+}
+.trigger span.down {
+  left: 0;
+}
+
+.box {
+  height: 1.2vh;
+  width: 50%;
+  margin-bottom: -0.2vh;
+  background: teal;
+  display: block;
+}
+
+@media (max-width: 280px) {
+  .trigger {
+    display: none;
+  }
+}
+@media (min-width: 281px) and (max-width: 767px) {
+  .trigger {
+    display: none;
+  }
+}/*# sourceMappingURL=scrollEvent.css.map */

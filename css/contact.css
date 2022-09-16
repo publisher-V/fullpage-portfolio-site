@@ -1,5 +1,10 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .contact-content {
-  position: relative;
   display: flex;
   align-items: center;
 }
@@ -88,6 +93,12 @@
   display: flex;
 }
 
+.contact-content-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .content-link-sns {
   background-color: #e2e2e2;
   width: 50px;
@@ -137,9 +148,6 @@
 
 .gform {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
   width: 100%;
 }
 
@@ -207,7 +215,6 @@ label {
   border: 1px solid rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   color: crimson;
-  cursor: pointer;
   transition: 0.5s;
   font-weight: 600;
 }
@@ -218,10 +225,12 @@ label {
   color: #ffffff;
 }
 
+.thankyou-box {
+  display: flex;
+  margin: 20px 0 0 0;
+}
+
 .thankyou_message {
-  position: absolute;
-  bottom: -150px;
-  left: 0;
   width: 100%;
   text-align: center;
   font-size: 0.7rem;
@@ -231,7 +240,6 @@ label {
   border-radius: 15px;
   transition: 0.3s;
   padding: 20px 0;
-  margin-top: 50px;
   opacity: 0;
   visibility: hidden;
 }

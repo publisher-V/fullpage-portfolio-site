@@ -1,33 +1,33 @@
+const body = document.querySelector("body");
 const headerElm = document.querySelector("header");
 const drawerOpen = document.querySelector(".drawer-open");
 const drawerClose = document.querySelector(".drawer-close");
 const menuClick = document.querySelectorAll(".gnb-container ul li a");
-const drawerHidden = document.querySelector("#home-button");
 const gnb = document.querySelector(".gnb");
 const modal = document.querySelector(".modal-background");
 
 function headerOpen() {
   gnb.classList.add("show");
   modal.classList.add("show");
+  body.style.overflow = "hidden";
 }
 
 function headerClose() {
   gnb.classList.remove("show");
   modal.classList.remove("show");
+  body.style.overflow = "scroll";
 }
 
 function modalClick() {
   gnb.classList.remove("show");
   modal.classList.remove("show");
+  body.style.overflow = "scroll";
 }
 
 function menuClickClose() {
   gnb.classList.remove("show");
   modal.classList.remove("show");
-}
-
-function drawerHiddenClick() {
-  headerElm.style.display = "none";
+  body.style.overflow = "scroll";
 }
 
 for (let i = 0; i < menuClick.length; i++) {
@@ -36,4 +36,3 @@ for (let i = 0; i < menuClick.length; i++) {
 drawerOpen.addEventListener("click", headerOpen);
 drawerClose.addEventListener("click", headerClose);
 modal.addEventListener("click", modalClick);
-drawerHidden.addEventListener("click", drawerHiddenClick);

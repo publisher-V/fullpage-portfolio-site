@@ -1,6 +1,5 @@
 header {
   position: fixed;
-  display: none;
   left: 0;
   top: 0;
   z-index: 99999;
@@ -23,14 +22,16 @@ header {
   justify-content: center;
   padding: 10px;
   margin-left: 20px;
-  cursor: pointer;
   width: 50px;
   height: 50px;
   border-radius: 10px;
   transition: 0.3s;
 }
 
-.drawer-open:hover,
+.drawer-open:hover {
+  background-color: rgba(41, 41, 41, 0.2);
+}
+
 .drawer-close:hover {
   background-color: rgb(218, 218, 218);
 }

@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 @import "./header.css";
 @import "./modal.css";
 @import "./about.css";
@@ -12,32 +11,53 @@
 @import "./mysite.css";
 @import "./contact.css";
 @import "./home.css";
-
+@import "./footer.css";
+@import "./intro.css";
+@import "./cursor.css";
+@import "./scrollEvent.css";
+@import "./percentage.css";
+@import "./percentageBar.css";
+@import "./loading.css";
 * {
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Archivo", sans-serif;
+html {
   scroll-behavior: smooth;
-  width: 100%;
-  background-color: #ffffff;
 }
 
-.fp-slides {
-  height: auto;
+body {
+  font-family: "Archivo", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-top: calc(100vh + 80px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh !important;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 150px;
+  background-color: #ffffff;
 }
 
-.section .fp-tableCell,
-.section .fp-slides {
-  height: auto !important;
+.trigger {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px -80px 50px 5px;
+}
+
+.sec1 {
+  margin-top: 0;
 }
 
 .inner {
@@ -57,6 +77,7 @@ h3 {
 }
 
 h1 {
+  display: inline-block;
   font-size: 3rem;
 }
 
@@ -70,20 +91,26 @@ hr {
   background-color: #888888;
 }
 
-.hidden-section {
-  display: none;
+@-webkit-keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @keyframes float {
   0% {
     transform: translateY(0);
   }
-
   50% {
     transform: translateY(-10%);
   }
-
   100% {
     transform: translateY(0);
   }
-}
+}/*# sourceMappingURL=styles.css.map */
