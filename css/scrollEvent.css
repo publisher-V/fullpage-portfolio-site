@@ -1,8 +1,8 @@
 .trigger {
   position: relative;
-  width: 1903px;
+  width: 100%;
   max-width: 1903px;
-  height: 937px;
+  height: 100%;
   max-height: 937px;
   overflow: hidden;
 }
@@ -43,6 +43,11 @@
   }
 }
 @media (min-width: 281px) and (max-width: 767px) {
+  .trigger {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1180px) {
   .trigger {
     display: none;
   }
