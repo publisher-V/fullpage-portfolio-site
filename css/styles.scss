@@ -10,7 +10,7 @@ $white: #ffffff;
 @import "./modal.css";
 @import "./about.css";
 @import "./skills.css";
-@import "./portfolio.css";
+@import "./project.css";
 @import "./mysite.css";
 @import "./contact.css";
 @import "./home.css";
@@ -54,6 +54,7 @@ body {
   width: 100%;
   margin-top: 150px;
   background-color: $white;
+  padding: 20px;
 }
 
 .trigger {

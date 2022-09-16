@@ -1,9 +1,10 @@
 .trigger {
   position: relative;
-  width: 100%;
-  height: 100vh;
+  width: 1903px;
+  max-width: 1903px;
+  height: 937px;
+  max-height: 937px;
   overflow: hidden;
-  margin-bottom: 150px;
 }
 .trigger:nth-of-type(2) {
   background: #eee;
@@ -32,7 +33,7 @@
   height: 1.2vh;
   width: 50%;
   margin-bottom: -0.2vh;
-  background: teal;
+  background: #50586c;
   display: block;
 }
 
