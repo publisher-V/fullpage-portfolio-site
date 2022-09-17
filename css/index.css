@@ -1,26 +1,26 @@
-.home-title {
+.index-title {
   font-size: 38px;
 }
 
-.home-title p span {
+.index-title p span {
   display: inline-block;
   color: crimson;
   animation: float 1s ease-in-out infinite;
 }
 
-.home-title p span:nth-of-type(2) {
+.index-title p span:nth-of-type(2) {
   animation-delay: 0.1s;
 }
 
-.home-title p:nth-child(2) span {
+.index-title p:nth-child(2) span {
   animation-delay: 0.2s;
 }
 
-.home-index-box {
+.index-box {
   margin-top: 80px;
 }
 
-.home-index-box-content {
+.index-box-content {
   display: flex;
   justify-content: center;
 }

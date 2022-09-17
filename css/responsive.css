@@ -29,10 +29,6 @@
     font-size: 14px;
   }
 
-  .section-header {
-    background-color: #ffffff;
-    box-shadow: rgba(27, 31, 35, 0.04) 0px 2px 8px;
-  }
   #scrollPercentLabel {
     display: none;
   }
@@ -52,22 +48,22 @@
     margin-top: 30px;
   }
 
-  /* home section */
-  .home-title {
+  /* index section */
+  .index-title {
     text-align: center;
     line-height: 2.5rem;
     font-size: 1.8rem;
   }
 
-  .home-title p {
+  .index-title p {
     margin: 0;
   }
 
-  .home-index-box {
+  .index-box {
     margin-top: 50px;
   }
 
-  .home-index-box-content {
+  .index-box-content {
     flex-wrap: wrap;
     width: 100%;
   }
@@ -118,6 +114,11 @@
 
   .aboutme-text br {
     display: none;
+  }
+
+  .aboutme-image {
+    width: 60vw;
+    margin: 0 auto;
   }
 
   .aboutme-info,
@@ -368,11 +369,6 @@
     width: 100%;
   }
 
-  .section-header {
-    background-color: #ffffff;
-    box-shadow: rgba(27, 31, 35, 0.04) 0px 2px 8px;
-  }
-
   #scrollPercentLabel {
     display: none;
   }
@@ -392,21 +388,21 @@
     margin-top: 30px;
   }
 
-  /* home section */
-  .home-title {
+  /* index section */
+  .index-title {
     text-align: center;
     line-height: 3.5rem;
   }
 
-  .home-title p {
+  .index-title p {
     margin: 0;
   }
 
-  .home-index-box {
+  .index-box {
     margin-top: 50px;
   }
 
-  .home-index-box-content {
+  .index-box-content {
     flex-wrap: wrap;
     width: 100%;
   }
@@ -457,6 +453,11 @@
 
   .aboutme-text br {
     display: none;
+  }
+
+  .aboutme-image {
+    width: 60vw;
+    margin: 0 auto;
   }
 
   .aboutme-info,
@@ -669,7 +670,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1180px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .inner {
     width: 100%;
     height: auto;
@@ -686,11 +687,6 @@
 
   .gnb {
     width: 100%;
-  }
-
-  .section-header {
-    background-color: #ffffff;
-    box-shadow: rgba(27, 31, 35, 0.04) 0px 2px 8px;
   }
 
   #scrollPercentLabel {
@@ -712,21 +708,21 @@
     margin-top: 80px;
   }
 
-  /* home section */
-  .home-title {
+  /* index section */
+  .index-title {
     text-align: center;
     line-height: 3.5rem;
   }
 
-  .home-title p {
+  .index-title p {
     margin: 0;
   }
 
-  .home-index-box {
+  .index-box {
     margin-top: 50px;
   }
 
-  .home-index-box-content {
+  .index-box-content {
     flex-wrap: wrap;
     width: 100%;
   }
@@ -764,7 +760,7 @@
   }
 
   .aboutme-image {
-    width: 60%;
+    width: 40vh;
   }
 
   .aboutme-text {
@@ -828,8 +824,8 @@
   }
 
   .skills-can-image {
-    width: 30%;
-    height: auto;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
   }
 
@@ -1002,5 +998,95 @@
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1300px) {
+@media (min-width: 1025px) and (max-width: 1299px) {
+  /* intro section */
+  .intro h1 {
+    font-size: 100px;
+    line-height: 3rem;
+  }
+
+  .intro h1:last-child {
+    margin-top: 80px;
+    font-size: 70px;
+  }
+
+  /* index section */
+  .index-item {
+    height: 200px;
+  }
+
+  .index-item:hover {
+    transform: scale(1.1);
+  }
+
+  /* aboutme section */
+  .aboutme-content {
+    flex-direction: column;
+  }
+
+  .aboutme-right {
+    margin-top: 50px;
+  }
+
+  .aboutme-image {
+    width: 40vh;
+    margin: 0 auto;
+  }
+
+  .aboutme-right-bottom {
+    margin-top: 50px;
+  }
+
+  .aboutme-right {
+    align-items: center;
+  }
+
+  .aboutme-right-top {
+    text-align: center;
+  }
+
+  /* skills section */
+  .skills-etc-container {
+    flex-direction: column;
+  }
+
+  .common-skills-content {
+    justify-content: center;
+  }
+
+  .skills-expected {
+    margin-top: 30px;
+  }
+
+  /* project section */
+  .swiper {
+    width: 650px;
+    height: 100%;
+  }
+
+  .project-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-horizontal > .swiper-pagination-progressbar,
+  .swiper-pagination-progressbar.swiper-pagination-horizontal,
+  .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+  .swiper-vertical
+    > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+    top: calc(100% + 20px);
+    width: 650px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* mysite section */
+  .mysite-item {
+    height: 350px;
+  }
+
+  .mysite-a-image {
+    width: 90px;
+    height: 90px;
+  }
 }

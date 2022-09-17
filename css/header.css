@@ -5,6 +5,12 @@ header {
   z-index: 99999;
   width: 100%;
   transition: 0.3s;
+  background-color: transparent;
+}
+
+header.change {
+  background-color: #ffffff;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .section-header,
