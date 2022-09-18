@@ -760,7 +760,7 @@
   }
 
   .aboutme-image {
-    width: 40vh;
+    width: 40vw;
   }
 
   .aboutme-text {
@@ -1029,7 +1029,8 @@
   }
 
   .aboutme-image {
-    width: 40vh;
+    width: 30vw;
+    height: auto;
     margin: 0 auto;
   }
 

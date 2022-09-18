@@ -38,8 +38,8 @@ body {
   width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
-  margin-top: calc(100vh + 80px);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: calc(100vh + 35px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
 }
 
 .section {
@@ -51,10 +51,6 @@ body {
   margin-top: 150px;
   background-color: #ffffff;
   padding: 20px;
-}
-
-.trigger {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px -80px 50px 5px;
 }
 
 .inner {
@@ -110,4 +106,4 @@ hr {
   100% {
     transform: translateY(0);
   }
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
