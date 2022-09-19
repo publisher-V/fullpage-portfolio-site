@@ -1,7 +1,15 @@
 @media (max-width: 280px) {
+  body {
+    overflow: visible;
+  }
+
   .inner {
     width: 100%;
     height: auto;
+  }
+
+  .page-loading {
+    display: none;
   }
 
   .section {
@@ -285,13 +293,13 @@
 
   /* mysite-section */
   .mysite-content {
-    flex-wrap: wrap;
     flex-direction: column;
-    height: 540px;
   }
 
   .mysite-item {
     width: 100%;
+    flex: auto;
+    height: 150px;
     margin-bottom: 20px;
     margin-right: 0;
   }
@@ -371,9 +379,17 @@
 }
 
 @media (min-width: 281px) and (max-width: 767px) {
+  body {
+    overflow: visible;
+  }
+
   .inner {
     width: 100%;
     height: auto;
+  }
+
+  .page-loading {
+    display: none;
   }
 
   .section {
@@ -703,9 +719,17 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    overflow: visible;
+  }
+
   .inner {
     width: 100%;
     height: auto;
+  }
+
+  .page-loading {
+    display: none;
   }
 
   .section {
@@ -959,13 +983,13 @@
 
   /* mysite-section */
   .mysite-content {
-    flex-wrap: wrap;
     flex-direction: column;
-    height: 800px;
   }
 
   .mysite-item {
     width: 100%;
+    flex: auto;
+    height: 150px;
     margin-bottom: 20px;
     margin-right: 0;
   }
@@ -1039,8 +1063,16 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1299px) {
+  body {
+    overflow: visible;
+  }
+
   .inner {
     width: 100%;
+  }
+
+  .page-loading {
+    display: none;
   }
 
   /* intro section */
