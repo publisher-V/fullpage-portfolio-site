@@ -1,14 +1,10 @@
 @media (max-width: 280px) {
-  body {
-    overflow: visible;
-  }
-
   .inner {
     width: 100%;
     height: auto;
   }
 
-  .page-loading {
+  .pin-spacer {
     display: none;
   }
 
@@ -379,16 +375,12 @@
 }
 
 @media (min-width: 281px) and (max-width: 767px) {
-  body {
-    overflow: visible;
-  }
-
   .inner {
     width: 100%;
     height: auto;
   }
 
-  .page-loading {
+  .pin-spacer {
     display: none;
   }
 
@@ -719,16 +711,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    overflow: visible;
-  }
-
   .inner {
     width: 100%;
     height: auto;
   }
 
-  .page-loading {
+  .pin-spacer {
     display: none;
   }
 
@@ -1063,15 +1051,11 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1299px) {
-  body {
-    overflow: visible;
-  }
-
   .inner {
     width: 100%;
   }
 
-  .page-loading {
+  .pin-spacer {
     display: none;
   }
 
