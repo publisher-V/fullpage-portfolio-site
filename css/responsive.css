@@ -4,10 +4,6 @@
     height: auto;
   }
 
-  .pin-spacer {
-    display: none;
-  }
-
   .section {
     text-align: center;
     margin-top: 100px;
@@ -380,10 +376,6 @@
     height: auto;
   }
 
-  .pin-spacer {
-    display: none;
-  }
-
   .section {
     text-align: center;
     margin-top: 100px;
@@ -714,10 +706,6 @@
   .inner {
     width: 100%;
     height: auto;
-  }
-
-  .pin-spacer {
-    display: none;
   }
 
   .section {
@@ -1053,10 +1041,6 @@
 @media (min-width: 1025px) and (max-width: 1299px) {
   .inner {
     width: 100%;
-  }
-
-  .pin-spacer {
-    display: none;
   }
 
   /* intro section */
