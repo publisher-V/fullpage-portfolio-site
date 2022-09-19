@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: #000000;
   z-index: 10;
 }
 
@@ -29,8 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #d4b996;
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  background: #e2e2e2;
   width: 100%;
   height: 100vh;
 }
@@ -50,7 +49,7 @@
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.2);
+  background: #50586c;
   animation: animate 25s linear infinite;
   bottom: -150px;
 }

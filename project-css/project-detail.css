@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: #a07855;
+  background-color: #50586c;
 }
 
 .common-detail-content {
@@ -152,5 +152,5 @@
 
 .common-link-item a:hover {
   background-color: #ffffff;
-  color: #a07855;
+  color: #50586c;
 }
