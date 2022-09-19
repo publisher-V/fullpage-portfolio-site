@@ -1,6 +1,6 @@
 $(window).on("load", function () {
   setTimeout(function () {
     $(".page-loading").fadeOut();
-    $("body").css("overflow-y", "visible");
+    $("body").css("overflow-y", "auto");
   }, 3000);
 });
