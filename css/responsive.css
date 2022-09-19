@@ -623,13 +623,13 @@
 
   /* mysite-section */
   .mysite-content {
-    flex-wrap: wrap;
     flex-direction: column;
-    height: 800px;
   }
 
   .mysite-item {
     width: 100%;
+    flex: auto;
+    height: 150px;
     margin-bottom: 20px;
     margin-right: 0;
   }
