@@ -32,18 +32,3 @@ body {
   height: $size;
   background-color: rgba(#dc5656, 0.5);
 }
-
-@media (max-width: 1299px) {
-  html,
-  body {
-    &,
-    * {
-      cursor: default;
-    }
-  }
-
-  .cursor-dot,
-  .cursor-dot-outline {
-    display: none;
-  }
-}
