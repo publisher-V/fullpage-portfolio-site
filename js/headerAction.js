@@ -15,19 +15,19 @@ function headerOpen() {
 function headerClose() {
   gnb.classList.remove("show");
   modal.classList.remove("show");
-  body.style.overflowY = "scroll";
+  body.style.overflowY = "visible";
 }
 
 function modalClick() {
   gnb.classList.remove("show");
   modal.classList.remove("show");
-  body.style.overflowY = "scroll";
+  body.style.overflowY = "visible";
 }
 
 function menuClickClose() {
   gnb.classList.remove("show");
   modal.classList.remove("show");
-  body.style.overflowY = "scroll";
+  body.style.overflowY = "visible";
 }
 
 for (let i = 0; i < menuClick.length; i++) {
