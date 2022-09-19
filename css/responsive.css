@@ -37,6 +37,10 @@
     display: none;
   }
 
+  .gnb-container ul {
+    font-size: 32px;
+  }
+
   /*intro section */
   .intro h1 {
     font-size: 35px;
@@ -228,8 +232,20 @@
     text-align: center;
   }
 
+  .project-title-left p {
+    font-size: 1rem;
+  }
+
   .project-title-right {
     margin-top: 30px;
+  }
+
+  .project-title-right p {
+    font-size: 15px;
+  }
+
+  .project-title-right br {
+    display: flex;
   }
 
   .project-title-right a {
@@ -238,6 +254,10 @@
 
   .project-title-left h2 {
     font-size: 2rem;
+  }
+
+  .project-image-box {
+    width: 100%;
   }
 
   .project-image {
@@ -562,7 +582,19 @@
     margin-top: 30px;
   }
 
+  .project-title-right br {
+    display: flex;
+  }
+
   .project-title-right a {
+    width: 100%;
+  }
+
+  .project-title-right p {
+    font-size: 13px;
+  }
+
+  .project-image-box {
     width: 100%;
   }
 
@@ -890,8 +922,16 @@
     margin-top: 30px;
   }
 
+  .project-title-right br {
+    display: flex;
+  }
+
   .project-title-right a {
     width: 50%;
+  }
+
+  .project-image-box {
+    width: 100%;
   }
 
   .project-image {
@@ -999,6 +1039,10 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1299px) {
+  .inner {
+    width: 100%;
+  }
+
   /* intro section */
   .intro h1 {
     font-size: 100px;
@@ -1061,13 +1105,38 @@
 
   /* project section */
   .swiper {
-    width: 650px;
-    height: 100%;
+    width: 100%;
+  }
+
+  .project-title-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-title-right {
+    margin-top: 30px;
+  }
+
+  .project-title-right br {
+    display: flex;
+  }
+
+  .project-title-right a {
+    width: 50%;
+  }
+
+  .project-image-box {
+    width: 100%;
   }
 
   .project-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 5px solid #000000;
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
   .swiper-horizontal > .swiper-pagination-progressbar,
@@ -1075,19 +1144,19 @@
   .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
   .swiper-vertical
     > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
-    top: calc(100% + 20px);
-    width: 650px;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
   }
 
-  /* mysite section */
-  .mysite-item {
-    height: 350px;
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: calc(100% + 60px);
   }
 
-  .mysite-a-image {
-    width: 90px;
-    height: 90px;
+  .swiper-button-next {
+    right: 0;
+  }
+
+  .swiper-button-prev {
+    left: 0;
   }
 }

@@ -2,6 +2,7 @@
 @import "./project-intro.css";
 @import "./project-detail.css";
 @import "./project-section.css";
+@import "./cursor.css";
 * {
   box-sizing: border-box;
 }

@@ -79,6 +79,10 @@
   line-height: 2rem;
 }
 
+.project-title-right br {
+  display: none;
+}
+
 .project-title-right p {
   font-size: 16px;
   font-weight: 400;
