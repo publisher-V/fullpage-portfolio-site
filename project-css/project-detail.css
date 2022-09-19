@@ -1,0 +1,156 @@
+.common-detail-container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #a07855;
+}
+
+.common-detail-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.common-detail-content h1 {
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.common-detail-content h1::after {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.common-detail-font-container span {
+  display: block;
+}
+
+.common-detail-font-container span {
+  font-size: 28px;
+}
+
+.common-detail-font-container span:nth-of-type(2) {
+  font-size: 24px;
+}
+
+.common-link-box,
+.common-color-box,
+.common-useskills-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.common-color-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 3px solid transparent;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.common-color-item:hover {
+  border: 3px solid #dddddd;
+  transform: scale(1.2);
+}
+
+.common-color-item:hover.common-color-item span {
+  opacity: 1;
+  visibility: visible;
+}
+
+.common-color-item span {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  font-size: 14px;
+}
+
+.common-color-item:last-child {
+  margin-right: 0;
+}
+
+.color-item1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.color-item2 {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.color-item3 {
+  background-color: #f02951;
+  color: #ffffff;
+}
+
+.color-item4 {
+  background-color: #03215c;
+  color: #ffffff;
+}
+
+.color-item5 {
+  background-color: #f5f5f5;
+  color: #000000;
+}
+
+.color-item6 {
+  background-color: #c9ccd5;
+  color: #000000;
+}
+
+.common-useskills-item {
+  width: 70px;
+  height: 70px;
+}
+
+.common-useskills-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.common-link-item {
+  margin-right: 20px;
+}
+
+.common-detail-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.common-link-item:last-child {
+  margin-right: 0;
+}
+
+.common-link-item a {
+  display: inline-block;
+  width: 150px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.common-link-item a:hover {
+  background-color: #ffffff;
+  color: #a07855;
+}

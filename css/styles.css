@@ -65,7 +65,8 @@ ul {
 
 h1,
 h2,
-h3 {
+h3,
+p {
   margin: 0;
 }
 
@@ -106,4 +107,4 @@ hr {
   100% {
     transform: translateY(0);
   }
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
