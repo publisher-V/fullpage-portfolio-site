@@ -39,19 +39,7 @@
   display: block;
 }
 
-@media (max-width: 280px) {
-  .trigger {
-    display: none;
-  }
-}
-
-@media (min-width: 281px) and (max-width: 767px) {
-  .trigger {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1299px) {
   .trigger {
     display: none;
   }
