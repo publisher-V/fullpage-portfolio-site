@@ -14,3 +14,7 @@
   height: 100%;
   background-color: crimson;
 }
+
+.progress-bar-box.hide {
+  display: none;
+}

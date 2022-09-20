@@ -4,29 +4,23 @@ const drawerOpen = document.querySelector(".drawer-open");
 const drawerClose = document.querySelector(".drawer-close");
 const menuClick = document.querySelectorAll(".gnb-container ul li a");
 const gnb = document.querySelector(".gnb");
-const modal = document.querySelector(".modal-background");
+const progress = document.querySelector(".progress-bar-box");
 
 function headerOpen() {
   gnb.classList.add("show");
-  modal.classList.add("show");
+  progress.classList.add("hide");
   body.style.overflow = "hidden";
 }
 
 function headerClose() {
   gnb.classList.remove("show");
-  modal.classList.remove("show");
-  body.style.overflowY = "auto";
-}
-
-function modalClick() {
-  gnb.classList.remove("show");
-  modal.classList.remove("show");
+  progress.classList.remove("hide");
   body.style.overflowY = "auto";
 }
 
 function menuClickClose() {
   gnb.classList.remove("show");
-  modal.classList.remove("show");
+  progress.classList.remove("hide");
   body.style.overflowY = "auto";
 }
 
@@ -35,4 +29,3 @@ for (let i = 0; i < menuClick.length; i++) {
 }
 drawerOpen.addEventListener("click", headerOpen);
 drawerClose.addEventListener("click", headerClose);
-modal.addEventListener("click", modalClick);
