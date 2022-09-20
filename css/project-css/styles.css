@@ -3,21 +3,32 @@
 @import "./project-detail.css";
 @import "./project-section.css";
 @import "./cursor.css";
+@import "./gototop.css";
 * {
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Archivo", sans-serif;
   width: 100%;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
-main {
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #101820;
+  border-radius: 30px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #efeeec;
+}
+
+.main {
   width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
@@ -39,4 +50,29 @@ h2,
 h3,
 p {
   margin: 0;
-} /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */
+}
+
+@-webkit-keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */
