@@ -18,14 +18,14 @@ function headerClose() {
   gnb.classList.remove("show");
   progress.classList.remove("hide");
   body.style.overflowY = "auto";
-  html.style.overflow = "auto";
+  html.style.overflowY = "auto";
 }
 
 function menuClickClose() {
   gnb.classList.remove("show");
   progress.classList.remove("hide");
   body.style.overflowY = "auto";
-  html.style.overflow = "auto";
+  html.style.overflowY = "auto";
 }
 
 for (let i = 0; i < menuClick.length; i++) {
