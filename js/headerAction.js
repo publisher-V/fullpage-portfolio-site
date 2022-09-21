@@ -10,6 +10,8 @@ const progress = document.querySelector(".progress-bar-box");
 function headerOpen() {
   gnb.classList.add("show");
   progress.classList.add("hide");
+  body.classList.add("notouch");
+  body.classList.remove("touch");
   body.style.overflow = "hidden";
   html.style.overflow = "hidden";
 }
@@ -17,6 +19,8 @@ function headerOpen() {
 function headerClose() {
   gnb.classList.remove("show");
   progress.classList.remove("hide");
+  body.classList.add("touch");
+  body.classList.remove("notouch");
   body.style.overflowY = "auto";
   html.style.overflowY = "auto";
 }
@@ -24,6 +28,8 @@ function headerClose() {
 function menuClickClose() {
   gnb.classList.remove("show");
   progress.classList.remove("hide");
+  body.classList.remove("notouch");
+  body.classList.add("touch");
   body.style.overflowY = "auto";
   html.style.overflowY = "auto";
 }

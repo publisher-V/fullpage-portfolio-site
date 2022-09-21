@@ -62,7 +62,6 @@ header.change {
   background-color: #ffffff;
   transform: translateX(-100%);
   transition: 0.3s;
-  touch-action: none;
 }
 
 .gnb-wrap {
