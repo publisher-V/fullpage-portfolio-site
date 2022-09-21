@@ -12,7 +12,6 @@ $common-margin: 0 auto;
 }
 
 html {
-  min-height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
 }
 
@@ -21,7 +20,6 @@ body {
   width: 100%;
   margin: $common-margin;
   overflow-x: hidden;
-  min-height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
 }
 
@@ -42,7 +40,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
   margin: $common-margin;
   background-color: #ffffff;
-  margin-top: calc(100vh + 35px);
+  margin-top: calc(var(--vh, 1vh) * 100 + 35px);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
 }
 
