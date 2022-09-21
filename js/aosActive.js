@@ -1,10 +1,6 @@
-AOS.init();
-
-function AOS_MOBILE() {
-  if (matchMedia("screen and (max-width: 1299px)").matches) {
-    $(
-      ".index-box-content, .aboutme-right, .aboutme-left, .common-skills-image, .mysite-content, .contact-content-left, .contact-content-right"
-    ).attr("data-aos", "fade-up");
-  }
-}
-AOS_MOBILE();
+AOS.init({
+  disable: function () {
+    let desktop = 1299;
+    return window.innerWidth < desktop;
+  }, // 1280px 이상일 때 disable
+});
