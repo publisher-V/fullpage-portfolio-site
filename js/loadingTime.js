@@ -1,6 +1,9 @@
-$(window).on("load", function () {
+const loadingPage = document.querySelector(".page-loading");
+
+function loadingPageOut() {
   setTimeout(function () {
-    $(".page-loading").fadeOut();
-    $("body").css("overflow-y", "auto");
-  }, 2000);
-});
+    loadingPage.classList.add("hide");
+  }, 3000);
+}
+
+loadingPageOut();
