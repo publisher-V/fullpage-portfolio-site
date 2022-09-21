@@ -10,10 +10,7 @@
 
 html,
 body {
-  touch-action: pan-y;
-  -webkit-overflow-scrolling: none;
-  -ms-scroll-chaining: none;
-      overscroll-behavior: none;
+  touch-action: pan-y pinch-zoom pan-up;
 }
 
 body {

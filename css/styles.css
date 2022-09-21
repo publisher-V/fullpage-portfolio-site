@@ -22,10 +22,7 @@
 
 html,
 body {
-  touch-action: pan-y;
-  -webkit-overflow-scrolling: none;
-  -ms-scroll-chaining: none;
-  overscroll-behavior: none;
+  touch-action: pan-y pinch-zoom pan-up;
   overflow: hidden;
 }
 
@@ -130,4 +127,4 @@ hr {
   100% {
     transform: translateY(0);
   }
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

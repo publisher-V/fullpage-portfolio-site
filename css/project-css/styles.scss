@@ -13,9 +13,7 @@ $common-margin: 0 auto;
 
 html,
 body {
-  touch-action: pan-y;
-  -webkit-overflow-scrolling: none;
-  overscroll-behavior: none;
+  touch-action: pan-y pinch-zoom pan-up;
 }
 
 body {
