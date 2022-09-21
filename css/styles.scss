@@ -27,6 +27,9 @@ $common-margin: 0 auto;
 
 html {
   scroll-behavior: smooth;
+  @supports (-webkit-touch-callout: none) {
+    height: -webkit-fill-available;
+  }
 }
 
 body {
@@ -35,6 +38,9 @@ body {
   margin: $common-margin;
   background-color: $white;
   overflow: hidden;
+  @supports (-webkit-touch-callout: none) {
+    height: -webkit-fill-available;
+  }
 }
 
 body::-webkit-scrollbar {
