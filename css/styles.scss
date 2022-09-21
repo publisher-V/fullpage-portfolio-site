@@ -34,7 +34,8 @@ body {
   width: 100%;
   margin: $common-margin;
   background-color: $white;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body.scroll {

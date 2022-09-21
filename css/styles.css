@@ -29,7 +29,8 @@ body {
   width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body.scroll {
