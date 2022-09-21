@@ -39,6 +39,10 @@ body {
   min-height: calc(var(--vh, 1vh) * 100);
 }
 
+body.scroll {
+  overflow-y: visible;
+}
+
 body::-webkit-scrollbar {
   width: 10px;
 }

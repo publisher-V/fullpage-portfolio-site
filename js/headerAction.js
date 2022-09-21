@@ -15,13 +15,13 @@ function headerOpen() {
 function headerClose() {
   gnb.classList.remove("show");
   progress.classList.remove("hide");
-  body.style.overflowY = "auto";
+  body.style.overflowY = "visible";
 }
 
 function menuClickClose() {
   gnb.classList.remove("show");
   progress.classList.remove("hide");
-  body.style.overflowY = "auto";
+  body.style.overflowY = "visible";
 }
 
 for (let i = 0; i < menuClick.length; i++) {
