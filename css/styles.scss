@@ -47,14 +47,6 @@ body.scroll {
   overflow-y: auto;
 }
 
-body.notouch {
-  touch-action: none;
-}
-
-body.touch {
-  touch-action: pan-y pinch-zoom pan-up;
-}
-
 body::-webkit-scrollbar {
   width: 10px;
 }
