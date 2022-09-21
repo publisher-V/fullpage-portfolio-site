@@ -58,6 +58,7 @@ header.change {
   left: 0;
   top: 0;
   width: 100%;
+  height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
   background-color: #ffffff;
   transform: translateX(-100%);
