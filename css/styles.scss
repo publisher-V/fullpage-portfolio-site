@@ -27,9 +27,8 @@ $common-margin: 0 auto;
 
 html {
   scroll-behavior: smooth;
-  @supports (-webkit-touch-callout: none) {
-    height: -webkit-fill-available;
-  }
+  min-height: 100vh; /* Fallback */
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 body {
@@ -38,9 +37,8 @@ body {
   margin: $common-margin;
   background-color: $white;
   overflow: hidden;
-  @supports (-webkit-touch-callout: none) {
-    height: -webkit-fill-available;
-  }
+  min-height: 100vh; /* Fallback */
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 body::-webkit-scrollbar {

@@ -12,9 +12,8 @@ $common-margin: 0 auto;
 }
 
 html {
-  @supports (-webkit-touch-callout: none) {
-    height: -webkit-fill-available;
-  }
+  min-height: 100vh; /* Fallback */
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 body {
@@ -22,9 +21,8 @@ body {
   width: 100%;
   margin: $common-margin;
   overflow-x: hidden;
-  @supports (-webkit-touch-callout: none) {
-    height: -webkit-fill-available;
-  }
+  min-height: 100vh; /* Fallback */
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 body::-webkit-scrollbar {
