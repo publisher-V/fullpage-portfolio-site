@@ -20,6 +20,15 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  touch-action: none;
+  -webkit-overflow-scrolling: none;
+  overflow: hidden;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -29,9 +38,9 @@ body {
   width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
-  overflow: hidden;
 }
 
+html.scroll,
 body.scroll {
   overflow-y: auto;
 }

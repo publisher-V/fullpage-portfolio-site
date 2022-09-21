@@ -25,6 +25,14 @@ $common-margin: 0 auto;
   box-sizing: border-box;
 }
 
+html,
+body {
+  touch-action: none;
+  -webkit-overflow-scrolling: none;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -34,9 +42,9 @@ body {
   width: 100%;
   margin: $common-margin;
   background-color: $white;
-  overflow: hidden;
 }
 
+html.scroll,
 body.scroll {
   overflow-y: auto;
 }
