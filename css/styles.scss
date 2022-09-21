@@ -38,7 +38,7 @@ body {
 }
 
 body.scroll {
-  overflow-y: visible;
+  overflow-y: auto;
 }
 
 body::-webkit-scrollbar {
