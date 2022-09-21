@@ -27,7 +27,6 @@ $common-margin: 0 auto;
 
 html {
   scroll-behavior: smooth;
-  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 body {
@@ -36,9 +35,10 @@ body {
   margin: $common-margin;
   background-color: $white;
   overflow: hidden;
-  min-height: calc(var(--vh, 1vh) * 100);
-  touch-action: none;
-  overscroll-behavior: none;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
 }
 
 body.scroll {
