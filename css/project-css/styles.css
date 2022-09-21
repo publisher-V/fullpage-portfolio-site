@@ -8,6 +8,14 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: none;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+}
+
 body {
   font-family: "Archivo", sans-serif;
   width: 100%;

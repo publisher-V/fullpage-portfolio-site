@@ -11,6 +11,13 @@ $common-margin: 0 auto;
   box-sizing: border-box;
 }
 
+html,
+body {
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: none;
+  overscroll-behavior: none;
+}
+
 body {
   font-family: "Archivo", sans-serif;
   width: 100%;
