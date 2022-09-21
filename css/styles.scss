@@ -34,8 +34,7 @@ body {
   width: 100%;
   margin: $common-margin;
   background-color: $white;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body.scroll {
@@ -64,7 +63,6 @@ body::-webkit-scrollbar-track {
 }
 
 .section {
-  width: 100%;
   margin-top: 150px;
   background-color: $white;
   padding: 20px;
