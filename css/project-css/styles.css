@@ -8,16 +8,11 @@
   box-sizing: border-box;
 }
 
-html {
-  min-height: calc(var(--vh, 1vh) * 100);
-}
-
 body {
   font-family: "Archivo", sans-serif;
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
-  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 body::-webkit-scrollbar {
@@ -37,8 +32,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
-  margin-top: calc(var(--vh, 1vh) * 100 + 35px);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+  margin-top: calc(var(--vh, 1vh) * 100);
 }
 
 .common-detail-container .inner {

@@ -32,6 +32,9 @@ body {
   background-color: #ffffff;
   overflow: hidden;
   min-height: calc(var(--vh, 1vh) * 100);
+  touch-action: none;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
 }
 
 body.scroll {
@@ -55,8 +58,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
-  margin-top: calc(100vh + 35px);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+  margin-top: calc(var(--vh, 1vh) * 100);
   padding-top: 150px;
 }
 
