@@ -60,7 +60,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
   margin: $common-margin;
   background-color: $white;
-  margin-top: calc(var(--vh, 1vh) * 100 + 35px);
+  margin-top: calc(100vh + 35px);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
   padding-top: 150px;
 }
