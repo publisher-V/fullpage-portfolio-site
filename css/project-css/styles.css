@@ -8,11 +8,18 @@
   box-sizing: border-box;
 }
 
+html {
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
 body {
   font-family: "Archivo", sans-serif;
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 body::-webkit-scrollbar {

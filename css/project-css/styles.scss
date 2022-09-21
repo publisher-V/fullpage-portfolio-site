@@ -12,7 +12,7 @@ $common-margin: 0 auto;
 }
 
 html {
-  min-height: 100vh; /* Fallback */
+  min-height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
 }
 
@@ -21,7 +21,7 @@ body {
   width: 100%;
   margin: $common-margin;
   overflow-x: hidden;
-  min-height: 100vh; /* Fallback */
+  min-height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
 }
 

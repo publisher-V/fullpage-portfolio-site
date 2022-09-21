@@ -27,7 +27,7 @@ $common-margin: 0 auto;
 
 html {
   scroll-behavior: smooth;
-  min-height: 100vh; /* Fallback */
+  min-height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
 }
 
@@ -37,7 +37,7 @@ body {
   margin: $common-margin;
   background-color: $white;
   overflow: hidden;
-  min-height: 100vh; /* Fallback */
+  min-height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
 }
 
