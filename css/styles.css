@@ -16,6 +16,7 @@
 @import "./percentage.css";
 @import "./percentageBar.css";
 @import "./loading.css";
+@import "./scrollSection.css";
 * {
   box-sizing: border-box;
 }
@@ -67,10 +68,6 @@ body::-webkit-scrollbar-track {
   margin-top: 150px;
   background-color: #ffffff;
   padding: 20px;
-}
-
-.sec1 {
-  margin-top: 0;
 }
 
 .inner {
