@@ -131,13 +131,13 @@
           </div>
           <div class="gnb-container">
             <ul>
-              <li id="home-button"><a>HOME</a></li>
-              <li><a href="#index">INDEX</a></li>
-              <li><a href="#aboutme">ABOUT ME</a></li>
-              <li><a href="#skills">SKILLS</a></li>
-              <li><a href="#project">PROJECT</a></li>
-              <li><a href="#mysite">MY SITE</a></li>
-              <li><a href="#contact">CONTACT</a></li>
+              <li id="home-button"><a data-text="home">HOME</a></li>
+              <li><a href="#index" data-text="index">INDEX</a></li>
+              <li><a href="#aboutme" data-text="aboutme">ABOUT ME</a></li>
+              <li><a href="#skills" data-text="skills">SKILLS</a></li>
+              <li><a href="#project" data-text="project">PROJECT</a></li>
+              <li><a href="#mysite" data-text="mysite">MY SITE</a></li>
+              <li><a href="#contact" data-text="contact">CONTACT</a></li>
             </ul>
           </div>
         </div>
@@ -215,20 +215,23 @@
                   data-aos-delay="400"
                   data-aos-duration="1000"
                 >
-                  <div class="index-item">
-                    <span>About me</span>
+                  <div class="images">
+                    <img src="./imgs/index-image/index.PNG" />
+                    <img src="./imgs/index-image/aboutme.PNG" />
+                    <img src="./imgs/index-image/skills.PNG" />
+                    <img src="./imgs/index-image/project.PNG" />
+                    <img src="./imgs/index-image/mysite.PNG" />
+                    <img src="./imgs/index-image/contact.PNG" />
                   </div>
-                  <div class="index-item">
-                    <span>Skills</span>
-                  </div>
-                  <div class="index-item">
-                    <span>Project</span>
-                  </div>
-                  <div class="index-item">
-                    <span>My site</span>
-                  </div>
-                  <div class="index-item">
-                    <span>Contact</span>
+                  <div class="contents">
+                    <ul class="list">
+                      <li class="item">INDEX</li>
+                      <li class="item">ABOUT ME</li>
+                      <li class="item">SKILLS</li>
+                      <li class="item">PROJECT</li>
+                      <li class="item">MY SITE</li>
+                      <li class="item">CONTACT</li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -883,6 +886,7 @@
     <script src="./js/loadingPage.js"></script>
     <script src="./js/homeBtnAction.js"></script>
     <script src="./js/headerBg.js"></script>
+    <script src="./js/indexHover.js"></script>
     <script
       data-cfasync="false"
       type="text/javascript"
