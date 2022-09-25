@@ -67,6 +67,29 @@
     margin-top: 30px;
   }
 
+  .intro-mouse {
+    top: 80%;
+    width: 30px;
+    height: 52px;
+  }
+
+  .intro-mouse p {
+    margin-top: 90px;
+    letter-spacing: 8px;
+    text-indent: 8px;
+    font-size: 12px;
+  }
+
+  .intro-mouse:before {
+    width: 24px;
+    height: 46px;
+  }
+
+  .intro-mouse:after {
+    width: 7px;
+    height: 7px;
+  }
+
   /* index section */
   .index-title {
     text-align: center;
@@ -377,6 +400,11 @@
   #message-send {
     margin-top: 20px;
   }
+
+  /* marquee section */
+  .marquee-message {
+    display: none;
+  }
 }
 
 @media (min-width: 281px) and (max-width: 767px) {
@@ -434,6 +462,29 @@
   .intro h1:last-child {
     font-size: 41px;
     margin-top: 30px;
+  }
+
+  .intro-mouse {
+    top: 80%;
+    width: 30px;
+    height: 52px;
+  }
+
+  .intro-mouse p {
+    margin-top: 90px;
+    letter-spacing: 8px;
+    text-indent: 8px;
+    font-size: 12px;
+  }
+
+  .intro-mouse:before {
+    width: 24px;
+    height: 46px;
+  }
+
+  .intro-mouse:after {
+    width: 7px;
+    height: 7px;
   }
 
   /* index section */
@@ -727,6 +778,11 @@
   #message-send {
     margin-top: 20px;
   }
+
+  /* marquee section */
+  .marquee-message {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -784,6 +840,10 @@
   .intro h1:last-child {
     font-size: 80px;
     margin-top: 80px;
+  }
+
+  .intro-mouse {
+    top: 75%;
   }
 
   /* index section */
@@ -1081,6 +1141,11 @@
   #message-send {
     margin-top: 20px;
   }
+
+  /* marquee section */
+  .marquee-message {
+    display: none;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1180px) {
@@ -1136,6 +1201,10 @@
   .intro h1:last-child {
     margin-top: 80px;
     font-size: 70px;
+  }
+
+  .intro-mouse {
+    top: 80%;
   }
 
   /* index section */
@@ -1247,5 +1316,16 @@
   /* mysite section */
   .mysite-item {
     height: 350px;
+  }
+
+  /* marquee section */
+  .marquee-message {
+    display: none;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1850px) {
+  .marquee-message {
+    font-size: 46px;
   }
 }

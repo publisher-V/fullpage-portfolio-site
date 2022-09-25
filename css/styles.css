@@ -17,6 +17,7 @@
 @import "./percentageBar.css";
 @import "./loading.css";
 @import "./scrollSection.css";
+@import "./marquee.css";
 * {
   box-sizing: border-box;
 }

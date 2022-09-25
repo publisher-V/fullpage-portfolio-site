@@ -734,6 +734,10 @@ body[data-aos-delay="5000"] [data-aos] {
 body[data-aos-delay="5000"] [data-aos].aos-animate {
   transition-delay: 5s;
 }
+[data-aos][data-aos][data-aos-delay="6000"].aos-animate,
+body[data-aos-delay="6000"] [data-aos].aos-animate {
+  transition-delay: 6s;
+}
 [data-aos][data-aos][data-aos-easing="linear"],
 body[data-aos-easing="linear"] [data-aos] {
   transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
