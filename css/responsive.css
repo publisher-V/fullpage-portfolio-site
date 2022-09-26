@@ -1324,8 +1324,24 @@
   }
 }
 
+@media (max-width: 1350px) {
+  .inner {
+    width: 100%;
+  }
+}
+
 @media (min-width: 1300px) and (max-width: 1850px) {
   .marquee-message {
     font-size: 46px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1650px) {
+  .common-scroll-text {
+    font-size: 34px;
+  }
+
+  .list {
+    font-size: 76px;
   }
 }
