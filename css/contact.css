@@ -188,6 +188,14 @@ textarea {
   padding: 10px;
   font-size: 16px;
   font-weight: 300;
+  transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transform: translate(-3px, -3px);
 }
 
 textarea {
