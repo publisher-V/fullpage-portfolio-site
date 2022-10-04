@@ -26,19 +26,19 @@
   background-color: #888888;
 }
 
-.design-image {
+.design-image-wrap {
   width: 100%;
   height: auto;
   margin-top: 100px;
 }
 
-.design-image img {
+.design-image-wrap img {
   width: 100%;
 }
 
 .common-image-header img,
 .common-image-main img,
-.riot-responsive-image-bottom {
+.common-responsive-image-bottom {
   margin-top: 20px;
 }
 
@@ -47,19 +47,15 @@
   margin-top: 0;
 }
 
-.riot-responsive-image-2item,
-.riot-responsive-image-3item {
+.common-responsive-image-1item {
   display: flex;
 }
 
-.riot-responsive-image-2item img {
+.common-responsive-image-1item img {
+  margin: 0 auto;
   width: 50%;
 }
 
-.riot-responsive-image-3item img {
-  width: calc(100% / 3);
-}
-
-.common-riot-responsive-image img {
-  padding: 10px;
+.common-responsive-image img {
+  padding: 10px 0;
 }

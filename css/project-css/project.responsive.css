@@ -3,6 +3,14 @@
     margin-top: 100px;
   }
 
+  .sections-wrapper h1 {
+    font-size: 38px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
   .sections-wrapper .inner {
     width: 100%;
   }
@@ -62,13 +70,7 @@
     margin-top: 50px;
   }
 
-  .riot-responsive-image-2item,
-  .riot-responsive-image-3item {
-    flex-direction: column;
-  }
-
-  .riot-responsive-image-2item img,
-  .riot-responsive-image-3item img {
+  .common-responsive-image-1item img {
     width: 100%;
   }
 }
@@ -119,13 +121,7 @@
     margin-top: 50px;
   }
 
-  .riot-responsive-image-2item,
-  .riot-responsive-image-3item {
-    flex-direction: column;
-  }
-
-  .riot-responsive-image-2item img,
-  .riot-responsive-image-3item img {
+  .common-responsive-image-1item img {
     width: 100%;
   }
 }
@@ -161,16 +157,6 @@
 
   .design-image {
     margin-top: 50px;
-  }
-
-  .riot-responsive-image-2item,
-  .riot-responsive-image-3item {
-    flex-direction: column;
-  }
-
-  .riot-responsive-image-2item img,
-  .riot-responsive-image-3item img {
-    width: 100%;
   }
 }
 
