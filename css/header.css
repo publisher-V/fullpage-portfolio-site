@@ -171,8 +171,8 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/mr-zouraiz123/pen
   opacity: 1;
   left: 50%;
   letter-spacing: 10px;
-  width: 1800px;
-  height: 1800px;
+  width: 1750px;
+  height: 1750px;
 }
 .gnb-container ul li:nth-child(7n + 1) a:before {
   background: #ff7675;

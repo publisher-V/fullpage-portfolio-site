@@ -1366,3 +1366,53 @@
     font-size: 76px;
   }
 }
+
+@media (min-width: 1300px) and (max-width: 1650px) {
+  .common-scroll-text {
+    font-size: 34px;
+  }
+
+  .list {
+    font-size: 76px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .gnb-container ul li a:hover:before {
+    width: 1200px;
+    height: 1200px;
+    font-size: 3.5em;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1500px) {
+  .gnb-container ul li a:hover:before {
+    width: 1300px;
+    height: 1300px;
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+  .gnb-container ul li a:hover:before {
+    width: 1400px;
+    height: 1400px;
+    font-size: 4.5em;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1700px) {
+  .gnb-container ul li a:hover:before {
+    width: 1500px;
+    height: 1500px;
+    font-size: 4.5em;
+  }
+}
+
+@media (min-width: 1701px) and (max-width: 1800px) {
+  .gnb-container ul li a:hover:before {
+    width: 1600px;
+    height: 1600px;
+    font-size: 4.5em;
+  }
+}
