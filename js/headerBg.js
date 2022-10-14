@@ -3,10 +3,7 @@ const introSection = document.querySelector(".intro");
 const scrollTextSection = document.querySelector(".scroll-text-container");
 
 function headerBgChange() {
-  let scrollHeight =
-    introSection.offsetHeight +
-    scrollTextSection.offsetHeight +
-    scrollTextSection.clientHeight;
+  let scrollHeight = introSection.offsetHeight;
   let scrollY = window.scrollY;
   if (scrollY > scrollHeight) {
     headerElement.classList.add("change");
