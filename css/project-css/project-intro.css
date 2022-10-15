@@ -62,7 +62,7 @@ Pure Css Animated Background Down to upside!!!
   justify-content: center;
   background: #e2e2e2;
   width: 100%;
-  height: calc(var(--vh, 1vh) * 100);
+  height: 100%;
 }
 
 .circles {
