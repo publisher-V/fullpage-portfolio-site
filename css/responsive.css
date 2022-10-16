@@ -53,6 +53,10 @@
     display: none;
   }
 
+  .common-scroll-text {
+    display: none;
+  }
+
   /* intro section */
   .intro h1 {
     font-size: 35px;
@@ -454,6 +458,10 @@
     display: none;
   }
 
+  .common-scroll-text {
+    display: none;
+  }
+
   /* intro section */
   .intro h1 {
     font-size: 45px;
@@ -836,6 +844,10 @@
     display: none;
   }
 
+  .common-scroll-text {
+    display: none;
+  }
+
   /*intro section */
   .intro h1 {
     font-size: 84px;
@@ -1198,6 +1210,10 @@
   }
 
   .scroll-text-container {
+    display: none;
+  }
+
+  .common-scroll-text {
     display: none;
   }
 
