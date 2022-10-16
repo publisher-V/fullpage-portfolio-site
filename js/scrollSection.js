@@ -27,21 +27,26 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/noeldelgado/pen/B
 */
 
 gsap.registerPlugin(ScrollTrigger);
-gsap.utils.toArray(".common-scroll-text").forEach((scrollText, index) => {
-  const w = scrollText.querySelector(".wrapper");
-  const [x, xEnd] =
-    index % 2
-      ? ["100%", (w.scrollWidth - scrollText.offsetWidth) * -1]
-      : [w.scrollWidth * -1, 0];
-  gsap.fromTo(
-    w,
-    { x },
-    {
-      x: xEnd,
-      scrollTrigger: {
-        trigger: scrollText,
-        scrub: 0.5,
-      },
-    }
-  );
+ScrollTrigger.matchMedia({
+  // desktop
+  "(min-width: 1299px)": function () {
+    gsap.utils.toArray(".common-scroll-text").forEach((scrollText, index) => {
+      const w = scrollText.querySelector(".wrapper");
+      const [x, xEnd] =
+        index % 2
+          ? ["100%", (w.scrollWidth - scrollText.offsetWidth) * -1]
+          : [w.scrollWidth * -1, 0];
+      gsap.fromTo(
+        w,
+        { x },
+        {
+          x: xEnd,
+          scrollTrigger: {
+            trigger: scrollText,
+            scrub: 0.5,
+          },
+        }
+      );
+    });
+  },
 });
