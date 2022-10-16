@@ -29,7 +29,7 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/noeldelgado/pen/B
 gsap.registerPlugin(ScrollTrigger);
 ScrollTrigger.matchMedia({
   // desktop
-  "(min-width: 1299px)": function () {
+  all: function () {
     gsap.utils.toArray(".common-scroll-text").forEach((scrollText, index) => {
       const w = scrollText.querySelector(".wrapper");
       const [x, xEnd] =
